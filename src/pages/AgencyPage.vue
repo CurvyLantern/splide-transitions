@@ -3,7 +3,7 @@ import Footer from '@/components/Footer.vue';
 import { ref } from 'vue';
 
 const x = ref(0);
-const onMouseMove = (evt) => {
+const onMousemove = (evt) => {
   x.value = evt.clientX;
 };
 </script>
